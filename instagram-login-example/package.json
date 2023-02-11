@@ -1,0 +1,25 @@
+{
+  "name": "instagram-poster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "imap-simple": "^5.1.0",
+    "instagram-web-api": "^2.2.2",
+    "is-url": "^1.2.4",
+    "jimp": "^0.22.4",
+    "lodash": "^4.17.21",
+    "mailparser": "^3.6.3",
+    "request-promise-native": "^1.0.9",
+    "tough-cookie": "^4.1.2",
+    "useragent-from-seed": "^1.0.1"
+  }
+}
